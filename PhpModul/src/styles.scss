@@ -1,0 +1,11 @@
+@import '../src/app/colors.scss';
+
+body{
+    margin: 0;
+    background-color: $gray;
+    color: white;
+}
+
+*{
+    color: white !important;
+}

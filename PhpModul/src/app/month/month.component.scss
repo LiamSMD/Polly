@@ -1,0 +1,8 @@
+@import '../../color-vars.scss';
+
+.calendar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    background-color: $light-blue-shadow;
+} 

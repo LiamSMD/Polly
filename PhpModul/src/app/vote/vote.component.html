@@ -1,0 +1,7 @@
+<div class="customer-wrapper flexbox">
+    <button (click)="addYesVote()" class="voteButton">Yes</button>
+    <div id="chart" #chart></div>
+    <button (click)="addNoVote()" class="voteButton">No</button>
+</div>
+<button (click)="saveVotes()" class="voteButton" [routerLink]="['/results']">Save</button>
+

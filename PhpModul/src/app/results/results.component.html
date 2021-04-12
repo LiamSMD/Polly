@@ -1,0 +1,12 @@
+<div class="component-wrapper">
+    <div *ngFor="let vote of votes" class="votewrapper">
+        <h2>{{ vote.name }}</h2>
+        <h4>Anzahl Stimmen Ja: {{ vote.votesYes }}</h4>
+        <h4>Anzahl Stimmen Nein: {{ vote.votesNo }}</h4>
+        <button [routerLink]="['/vote', vote.id]" class="votebutton">Edit</button>
+    </div>
+
+    <div class="plusField">
+        <a class="plusFieldButton" [routerLink]="['/manage-vote']">+</a>
+    </div>
+</div>

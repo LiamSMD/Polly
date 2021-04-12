@@ -1,0 +1,35 @@
+@import '../colors.scss';
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: $dark;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ 
+li {
+    float: left;
+    padding: .75rem;
+    
+}
+ 
+li a {
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    transition: 200ms;
+}
+ 
+li a:hover {
+    background-color: $gray;
+    transform: scale(1);
+}
+
+.is-active{
+    background-color: $darkblue;
+}

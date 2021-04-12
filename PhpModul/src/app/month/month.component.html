@@ -1,0 +1,15 @@
+<table class="calendar">
+    <th>Montag</th>
+    <th>Dienstag</th>
+    <th>Mittwoch</th>
+    <th>Donnerstag</th>
+    <th>Freitag</th>
+    <th>Samstag</th>
+    <th>Sonntag</th>
+    <tr>
+        <td *ngFor="let day of weekdays">
+            {{ day | date: 'd'}}
+        </td>
+    </tr>
+</table>
+<router-outlet></router-outlet>
